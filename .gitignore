@@ -11,3 +11,9 @@ wheels/
 
 # Data directory
 data/
+logs/
+
+# Secrets / keys
+credentials
+*.pem
+*.key
