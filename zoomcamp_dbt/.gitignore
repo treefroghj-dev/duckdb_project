@@ -1,0 +1,38 @@
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# DuckDB / local DB files
+*.duckdb
+
+# Local data / seeds (optional if you want seeds tracked)
+data/
+seeds/*.csv
+
+# Env / credentials
+.env
+*.env
+# Do NOT commit ~/.dbt/profiles.yml — keep it local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+.venv/
+venv/
+.envrc
+.pytest_cache/
+
+# Secrets / keys
+credentials
+*.pem
+*.key
+
+*.json
