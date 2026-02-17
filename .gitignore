@@ -17,3 +17,6 @@ logs/
 credentials
 *.pem
 *.key
+.gcp/
+**/sa-key*.json
+**/*service-account*.json
